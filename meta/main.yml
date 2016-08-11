@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Apostolos Tovletoglou
+  description: Aegir User
+  license: MIT
+  min_ansible_version: 1.8
+  platforms:
+  - name: EL
+    versions:
+    - 7
+  galaxy_tags:
+    - aegir
+    - hosting
+    - drupal
+
+dependencies: []
