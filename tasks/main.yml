@@ -66,5 +66,5 @@
       path: "{{ user_home }}/config"
       owner: "{{ user_name }}"
       group: "{{ user_group_name }}"
-      mode: 0755
+      mode: 0711
     when: user_name=="aegir"
