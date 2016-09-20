@@ -50,6 +50,10 @@ Edit the `templates/sudoers.tpl` accordingly.
 
     user_sudo: true
 
+Add passwordless sudo (true | false).
+
+    user_passwordless_sudo: false
+
 ## Dependencies
 
 None
