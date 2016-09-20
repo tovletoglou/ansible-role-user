@@ -54,6 +54,11 @@ Add passwordless sudo (true | false).
 
     user_passwordless_sudo: false
 
+Add the URL of your public keys, like: `user_authorized_keys: "https://github.com/USERNAME.keys"`
+or add a local file, like: `user_authorized_keys: "{{ lookup('file', '/root/.ssh/id_rsa.pub') }}"`
+
+    user_authorized_keys: ""
+
 ## Dependencies
 
 None
