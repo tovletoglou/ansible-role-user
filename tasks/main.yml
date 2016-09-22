@@ -17,6 +17,7 @@
     user:
       name: "{{ user_name }}"
       shell: "{{ user_shell }}"
+      group: "{{ user_group_primary }}"
       groups: "{{ user_group_list }}"
       system: yes
       home: "{{ user_home }}"
@@ -28,6 +29,7 @@
     user:
       name: "{{ user_name }}"
       shell: "{{ user_shell }}"
+      group: "{{ user_group_primary }}"
       groups: "{{ user_group_list }}"
       system: yes
       home: "{{ user_home }}"

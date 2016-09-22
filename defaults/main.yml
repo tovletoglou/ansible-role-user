@@ -27,6 +27,9 @@ user_group_name: "{{ user_name }}"
 # group.
 user_group_gid:
 
+# Define a primary group for the user.
+user_group_primary: apache
+
 # List with groups that user belongs. String separated with commas and **no**
 # spaces (string,string,...).
 # If you defined a `{{ user_group_name }}` you should add it in the list bellow.
